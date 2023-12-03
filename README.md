@@ -27,18 +27,19 @@ To get starting with training the model, please download the dataset (link in th
 To properly setup, create a folder named `data` in the root folder and place your data in there. The images have to be separated by class by putting them in there respective folder (see example below).
 
 ```bash
-├── data
-│   ├── class1
-│   │   ├── imagefile
-│   ├── class2
-│   │   ├── imagefile
-│   ├── class3
-│   └── etc.
-|
-├── .gitignore
-├── Eye_Disease_Detection.ipynb
-├── README.md
-└── requirement.txt
+Eye_Disease_Detection_Swin-Transformer_PyTorch
+  ├── data
+  │   ├── class1
+  │   │   ├── imagefile
+  │   ├── class2
+  │   │   ├── imagefile
+  │   ├── class3
+  │   └── etc.
+  │
+  ├── .gitignore
+  ├── Eye_Disease_Detection.ipynb
+  ├── README.md
+  └── requirement.txt
 ```
 
 ## General Information
