@@ -21,6 +21,26 @@ pip install -r requirements.txt
 The packages/libraries listed in the text document contains all the packages that have been installed in the used Python environment.  
 Furthermore the used packages/libraries might be of an older version or are not supported/maintained in the future.
 
+### Data setup
+To get starting with training the model, please download the dataset (link in the citations chapter), or use your own dataset.
+
+To properly setup, create a folder named `data` in the root folder and place your data in there. The images have to be separated by class by putting them in there respective folder (see example below).
+
+```bash
+├── data
+│   ├── class1
+│   │   ├── imagefile
+│   ├── class2
+│   │   ├── imagefile
+│   ├── class3
+│   └── etc.
+|
+├── .gitignore
+├── Eye_Disease_Detection.ipynb
+├── README.md
+└── requirement.txt
+```
+
 ## General Information
 
 ### File Structure
@@ -44,7 +64,7 @@ For more information about the subject Swin Transformer visit the following webs
 
 - [Bai Jie Cao](https://github.com/BaiJie90)
 - [Maxine Olexa Phoa](https://github.com/mn4p)
-- Omole Olakunle A.
+- [Omole Olakunle A.](https://github.com/omole18)
 
 ### Citations
 
