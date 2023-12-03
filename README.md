@@ -24,7 +24,7 @@ Furthermore the used packages/libraries might be of an older version or are not 
 ### Data setup
 To get starting with training the model, please download the dataset (link in the citations chapter), or use your own dataset.
 
-To properly setup, create a folder named `data` in the root folder and place your data in there. The images have to be separated by class by putting them in there respective folder (see example below).
+To properly setup, create a folder named `data` in the root folder and place your data in there. The images have to be separated by class by putting them in their respective folder (see example below).
 
 ```bash
 Eye_Disease_Detection_Swin-Transformer_PyTorch
